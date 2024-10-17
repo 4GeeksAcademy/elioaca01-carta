@@ -1,1 +1,19 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+
+.card {
+  background-color: white;
+  max-width: 450px;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.pica {
+  width: 75px;
+  height: 100px;
+}
+
+.num {
+  font-size: 118px;
+}
