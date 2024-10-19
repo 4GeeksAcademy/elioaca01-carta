@@ -1,19 +1,51 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
 body {
   background-color: green;
+  display: flex;
+  justify-content: center;
+  height: 100dvh;
+  align-items: center;
 }
 
 .card {
   background-color: white;
-  max-width: 450px;
+  width: 450px;
   height: 500px;
   border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.pica {
-  width: 75px;
-  height: 100px;
+.logo {
+  font-size: 6rem;
+}
+
+.logovolteado {
+  font-size: 6rem;
+  transform: rotate(180deg);
 }
 
 .num {
   font-size: 118px;
+  display: flex;
+  justify-content: center;
+}
+
+.logored {
+  font-size: 6rem;
+  color: red;
+}
+
+.logovolteadored {
+  font-size: 6rem;
+  transform: rotate(180deg);
+  color: red;
+}
+
+.numred {
+  font-size: 118px;
+  display: flex;
+  justify-content: center;
+  color: red;
 }
